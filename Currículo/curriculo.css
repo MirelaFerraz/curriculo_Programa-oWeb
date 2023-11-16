@@ -1,8 +1,19 @@
+/*https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow*/
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
+    background-color: #eee2e2;
+
+
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 10px 5px 5px black;
+
 }
 
 .section {
